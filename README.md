@@ -1,17 +1,16 @@
 🚀 Java Microservices Deployment on Kubernetes (Docker + Minikube on AWS EC2)
-
 A hands-on DevOps project demonstrating an end-to-end deployment workflow for a Java microservices application using Maven, Docker, Docker Hub, and Kubernetes. The services are deployed on a Kubernetes cluster running on Minikube inside an AWS EC2 instance, using production-style Kubernetes Deployments and Services.
 
 
-📌 Project Overview
 
+📌 Project Overview
 This repository showcases a real DevOps deployment pipeline:
 Java Microservices → Maven Build → JAR Packaging → Docker Image → Docker Hub → Kubernetes Deployments → Service Exposure
 The goal of this project is to simulate how Java applications are built, containerized, published, and deployed in modern cloud-native environments.
 
 
-🧩 Microservices Included
 
+🧩 Microservices Included
 | Service              | Description                                    | Port |
 | -------------------- | ---------------------------------------------- | ---- |
 | **shopfront**        | Frontend service for accessing the application | 8010 |
@@ -19,8 +18,8 @@ The goal of this project is to simulate how Java applications are built, contain
 | **stockmanager**     | Manages stock and availability APIs            | 8030 |
 
 
-🏗️ Architecture (High Level)
 
+🏗️ Architecture (High Level)
 Each microservice is packaged as a JAR
 Each service runs as an independent Docker container
 Images are stored in Docker Hub
@@ -29,16 +28,16 @@ Deployments (replicas + rolling updates)
 Services (NodePort) for exposure inside Minikube
 
 
-🛠️ Tech Stack
 
-Java
-Maven
-Docker
-Docker Hub
-Kubernetes
-Minikube
-AWS EC2
-Git & GitHub
+🛠️ Tech Stack
+Java, 
+ Maven,
+ Docker,
+ Docker Hub,
+ Kubernetes,
+ Minikube,
+ AWS EC2,
+ Git & GitHub
 
 
 📌 Kubernetes Manifests
